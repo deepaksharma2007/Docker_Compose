@@ -88,6 +88,8 @@ These keywords provide configuration options to customize the behavior and setup
 
 After running the Docker Compose command, you can access the WordPress application in your web browser at [http://localhost:8080](http://localhost:8080).
 
+If you are using an AWS instance to host your WordPress application, you will need to access it using the public IP address of the instance along with port 8080. Additionally, you must ensure that port 8080 is allowed in the AWS security group associated with the instance to access the WordPress application.
+
 ## Network Configuration
 
 The Docker Compose file sets up a custom Docker network named `deep_net` with the subnet `172.16.238.0/24` for communication between the containers.
