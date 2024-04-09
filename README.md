@@ -14,7 +14,7 @@ Ensure that you have the following installed on your system:
 1. Clone this repository:
 
     ```sh
- [   git clone https://github.com/deepaksharma2007/Docker_Compose.git ]
+    git clone https://github.com/deepaksharma2007/Docker_Compose.git 
     ```
 
 2. Navigate to the project directory:
